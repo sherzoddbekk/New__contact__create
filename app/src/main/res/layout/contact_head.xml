@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_head"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/border_contact">
+    <ImageView
+        android:background="@drawable/border_contact"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_person_outline_24"/>
+    <TextView
+        android:id="@+id/contact_name"
+        android:background="@drawable/border_contact"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Name"
+        android:textSize="35dp"
+        android:textColor="#041A88"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/contact_phone"
+        android:background="@drawable/border_contact"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Phone number"
+        android:textSize="35dp"
+        android:textColor="#041A88"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
